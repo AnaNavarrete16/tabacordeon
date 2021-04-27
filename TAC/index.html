@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	
+  </head>
+  <body>
+  	<div class="container-fluid">
+  	  <div class="container-fluid">
+  	    <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+  	      <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Aries&nbsp;</a> </li>
+  	      <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Leo</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="#paneTwo2" role="tab" id="hatstab2" data-toggle="tab" aria-controls="hats">Géminis</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="#paneTwo3" role="tab" id="hatstab3" data-toggle="tab" aria-controls="hats">Cáncer</a> </li>
+  	      <!-- Dropdown -->
+  	      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Signos Zodiacales </a>
+  	        <div class="dropdown-menu"> <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownshoestab1" data-toggle="tab" aria-controls="dropdownShoes">Sagitario</a> <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">Acuario</a> </div>
+          </li>
+        </ul>
+  	    <!-- Content Panel -->
+  	    <div id="clothingnavcontent1" class="tab-content">
+  	      <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+  	        <p><b>Un Aries es una persona llena de energía y entusiasmo. Pionero y aventurero, le encantan los retos, la libertad y las nuevas ideas. A los Aries les gusta liderar y prefieren dar instrucciones a recibirlas. Son independientes y preocupados por su propia ambición y objetivos. </b></p>
+          </div>
+  	      <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+  	        <p>Un Leo es el signo más dominante del zodiaco. También es creativo y extrovertido. Son los reyes entre los humanos, de la misma forma que los leones son los reyes en el reino animal. </p>
+          </div>
+		  <div role="tabpanel" class="tab-pane fade" id="paneTwo2" aria-labelledby="hatstab2">
+  	        <p>Géminis es el signo de los gemelos y, como tal, su carácter es doble, bastante complejo y contradictorio. Por un lado es versátil, pero por el otro puede ser insincero. </p>
+          </div>
+		  <div role="tabpanel" class="tab-pane fade" id="paneTwo3" aria-labelledby="hatstab3">
+  	        <p>El carácter de un Cáncer es el menos claro de todos los signos del zodiaco. Un Cáncer puede ser desde tímido y aburrido hasta brillante y famoso. Los Cáncer son conservadores y les encanta la seguridad y el calor de su hogar.</p>
+          </div>
+  	      <div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownshoestab1">
+  	        <p>El Sagitario es uno de los signos más positivos del zodiaco. Son versátiles y les encanta la aventura y lo desconocido. Tienen la mente abierta a nuevas ideas y experiencias y mantienen una actitud optimista incluso cuando las cosas se les ponen difíciles.</p>
+          </div>
+  	      <div role="tabpanel" class="tab-pane fade" id="tabDropDownTwo1" aria-labelledby="dropdownbootstab1">
+  	        <p>Los Acuario tienen una personalidad fuerte y atractiva. Hay dos tipos de Acuario: uno es tímido, sensible, y paciente. El otro tipo es exuberante, vivo y puede llegar a esconder las profundidades de su personalidad debajo de un aire frívolo. </p>
+          </div>
+        </div>
+      </div>
+  	</div>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.0.0.js"></script>
+  <div class="container">
+    <div id="accordion1" role="tablist">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne1">
+          <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1">Carta Natal</a> </h5>
+        </div>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body">La carta astral es un diagrama usado, entre otros métodos, para ejercitar la astrología. Representa el cielo (posiciones de los planetas, estrellas fijas y algunos otros cuerpos) y la tierra (horizonte y meridiano) desde un lugar (latitud y longitud) y a una hora (Hora sidérea Local), siendo una representación geocéntrica.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1">Signo Solar</a> </h5>
+        </div>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body">Cuando hablamos del signo solar nos referimos al signo del zodiaco en el que se encuentra el Sol en la carta natal de cada uno. Es decir que si soy Acuario, significa que el Sol está en el signo de Acuario. El Sol refleja la personalidad, los sentimientos más profundos de cada uno, el Yo interno tanto en lo bueno como en lo malo. El comportamiento y las reacciones de una persona se ven claramente influidos por el signo solar.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1">Signo Lunar</a> </h5>
+        </div>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body">A pesar de la importancia del signo solar a la hora de forjar la personalidad de una personal, la posición de la Luna en el momento del nacimiento de una persona también influye. La Luna incrementa nuestra sensibilidad, manera de entender el mundo y representa el lado más sentimental.</div>
+        </div>
+      </div>
+	  <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree2" role="button" aria-expanded="false" aria-controls="collapseThree1">Ascendente</a> </h5>
+        </div>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body">El signo solar es el signo zodiacal que conocemos y leemos habitualmente, sin embargo, el signo ascendente nos habla del destino, el aprendizaje. En otras palabras el signo ascendente define el modelo que tenemos de enfocar la vida y canalizar nuestras energías, representando así el plano tanto físico o como mental.</div>
+        </div>
+      </div>
+	  <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree3" role="button" aria-expanded="false" aria-controls="collapseThree1">Casas Astrológicas</a> </h5>
+        </div>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body">El término casas en astrología se refiere a la división en doce sectores, no necesariamente iguales, del espacio angular comprendido entre los llamados "ángulos", es decir: el Ascendente, el Descendente, el Medio Cielo y el Fondo del Cielo. Estos cuatro ángulos coinciden aproximadamente con los cuatro puntos cardinales.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
